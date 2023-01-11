@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.text-me{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+body{
+ font-family: 'Times New Roman', Times, serif;
+ text-align: justify;
+}
+
+/* Navbar */
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar{
+  background-image: linear-gradient(to right, #0e0e0f, #88888d);
+  padding: 10;
+}
+
+.navbar-brand img{
+  height: 50px;
+  padding-left: 20px;
+}
+
+.navbar-nav li{
+  padding: 0 15px;
+} 
+
+.navbar-nav li a{
+  color: white !important;
+  font-weight: 150;
+  font-size: 1.05rem;
+}
+
+span{
+  color: white;
+}
+
+/* About Me */
+
+#Aboutme{
+  background-image: linear-gradient(to right, #88888d, #0e0e0f);
+  color: #fff;
+  padding-top: 5%;
+}
+
+.fullname{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.play-btn{
+  height: 45px;
+  margin: 20px;
+}
+
+#Aboutme a{
+  color: white;
+}
+
+.bottom-img{
+  width: 100%;
+}
+
+/* Skills */
+
+#skills{
+  padding: 100px 0;
+}
+
+.skills-img{
+  width: 150px;
+  margin-top: 20px;
+}
+
+.skills{
+  padding: 10px;
+
+}
+
+/* Projects */
+
+.projects-background{
+  background-image: linear-gradient(to right, #88888d, #0e0e0f);
+  height: 60;
+}
+
+/* Contact */
+.contact{
+  background-image: rgb(243, 239, 239);
+  text-align: center;
+  
+}
+
+/* Footer and contacts*/
+
+/* #footer{
+  background-image: linear-gradient(to right, #0e0e0f, #88888d);
+  color: white;
+} */
+
+#footer{
+  background-image: linear-gradient(to right, #0e0e0f, #88888d);
+
+}
+
+.footer-box{
+  color: white;
+  padding-top: 50px;
+}
+
+.footer-box img{
+  height: 50px;
+  margin: 20px; 
+}
+
