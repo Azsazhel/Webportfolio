@@ -54,6 +54,14 @@ span{
   padding-top: 5%;
 }
 
+.profile-photo{
+  background-color: pink;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
 .fullname{
   font-size: 40px;
   font-weight: 600;
