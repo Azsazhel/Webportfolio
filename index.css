@@ -1,23 +1,14 @@
-*{
-  margin: 0;
-  padding: 0;
-}
 
-.text-me{
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 900;
-}
 
 body{
- font-family: 'Times New Roman', Times, serif;
- text-align: justify;
-}
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+ }
 
 /* Navbar */
 
 #nav-bar{
-  position: sticky;
+  
   top: 0;
   z-index: 10;
 }
@@ -46,12 +37,13 @@ span{
   color: white;
 }
 
-/* About Me */
+/* home */
 
-#Aboutme{
+#home{
   background-image: linear-gradient(to right, #88888d, #0e0e0f);
   color: #fff;
-  padding-top: 5%;
+  padding-top: 10%;
+
 }
 
 .profile-photo{
@@ -60,12 +52,33 @@ span{
   width: 50px;
   height: 50px;
   border-radius: 20px;
+  text-align: left;
 }
 
 .fullname{
-  font-size: 40px;
-  font-weight: 600;
-  margin-top: 100px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  font-weight: 50;
+  padding-top: 10%;
+  padding: 0;
+  margin: 0;
+}
+
+.name{
+  font-family: 'Allura', cursive;
+  font-size: 100px;
+  font-weight: 50;
+  padding-top: 10%;
+  padding: 0;
+  margin: 0;
+}
+
+.about1{
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 50px;
+  padding-top: 5%;
+  padding-right: 20px;
 }
 
 .play-btn{
@@ -81,20 +94,10 @@ span{
   width: 100%;
 }
 
-/* Skills */
+/* About me */
 
-#skills{
-  padding: 100px 0;
-}
-
-.skills-img{
-  width: 150px;
-  margin-top: 20px;
-}
-
-.skills{
-  padding: 10px;
-
+#aboutme{
+  text-align: center;
 }
 
 /* Projects */
@@ -102,13 +105,6 @@ span{
 .projects-background{
   background-image: linear-gradient(to right, #88888d, #0e0e0f);
   height: 60;
-}
-
-/* Contact */
-.contact{
-  background-image: rgb(243, 239, 239);
-  text-align: center;
-  
 }
 
 /* Footer and contacts*/
@@ -133,3 +129,34 @@ span{
   margin: 20px; 
 }
 
+.logo3{
+  height: 50px;
+  width: 120px;
+  background-color: pink;
+  padding-left: 20px;
+}
+
+/* Buttons */
+
+/* .play-btn{
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+} */
+
+/* 
+.play-btn:hover{
+  transform: translate(12px, -12px);
+} */
+.play-btn{
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.play-btn:hover{
+  transition: 0.5s ease;
+  background-color:grey;
+}
+.play-btn a{
+  color: black;
+}
